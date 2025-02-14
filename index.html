@@ -23,7 +23,8 @@
   <!-- A-Frame Scene with AR.js -->
   <a-scene embedded arjs="sourceType: webcam; debugUIEnabled: false;">
     <!-- Camera Feed -->
-    <a-entity camera></a-entity>
+    <a-entity camera fov="40" 
+        look-controls></a-entity>
 
     <!-- Image -->
     <a-image
